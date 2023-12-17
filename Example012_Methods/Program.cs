@@ -36,14 +36,12 @@ Console.WriteLine(year);
 
 // Вид 4
 
-string Method4(int count, string c)
+string Method4(int count, string text)
 {
-    int i = 0;
     string result = String.Empty;
-    while (i < count)
+    for (int i = 0; i < count; i++)
     {
-        result = result + c;
-        i++;
+        result = result + text;
     }
     return result;
 }
